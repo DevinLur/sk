@@ -1175,3 +1175,48 @@ a {
         gap: 10px;
     }
 }
+/* ========================================
+   MENSAJES DEL SISTEMA
+   ======================================== */
+.mensaje-sistema {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 15px 20px;
+    border-left: 4px solid;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.mensaje-exito {
+    background: #e8f0f8;
+    border-left-color: #1b2a47;
+    color: #1b2a47;
+}
+
+.mensaje-error {
+    background: #f8ede4;
+    border-left-color: #b86b3a;
+    color: #b86b3a;
+}
+
+/* ========================================
+   RESULTADO DE BUSQUEDA
+   ======================================== */
+.resultado-busqueda {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+}
+
+.resultado-busqueda h2 {
+    color: #1b2a47;
+    margin-bottom: 15px;
+}
+
+.resultado-busqueda p {
+    margin-bottom: 8px;
+    color: #1e1e24;
+}
